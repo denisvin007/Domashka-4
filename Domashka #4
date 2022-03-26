@@ -1,0 +1,17 @@
+using System;
+
+namespace MyFirstApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string yourName = "Денис";
+            int age = 34;
+            string zodiacSign = "Рыбы";
+            string workPlace = "Блогер";
+
+            Console.WriteLine("Вас зовут " + yourName + ", " + "Вам " + age + " года, Вы " + zodiacSign + " и Вы " + workPlace + ".");
+        }
+    }
+}
